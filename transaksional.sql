@@ -1,4 +1,5 @@
-mysqldump: [Warning] Using a password on the command line interface can be insecure.
+CREATE DATABASE IF NOT EXISTS transaksional CHARSET utf8mb4 COLLATE utf8mb4_general_ci;
+USE transaksional;
 -- MySQL dump 10.13  Distrib 8.0.31, for Linux (x86_64)
 --
 -- Host: localhost    Database: transaksional
